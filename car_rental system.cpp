@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -6,7 +6,7 @@ int main() {
 	int taxi;
 	int uber;
 	int carbrand{};
-	double k;
+	double k;//k represents kilomiters
 
 	cout << "What brand do you whant to call to pick you up!\n taxi - 1\n uber - 2\nType the number" << endl;
 	cin >> carbrand;
@@ -26,3 +26,6 @@ int main() {
 	}
 	return 0;
 }
+
+
+//If you whant you can add more car ride brands
